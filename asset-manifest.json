@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/merosite/static/css/main.a617e044.chunk.css",
+    "main.js": "/merosite/static/js/main.e6d9f705.chunk.js",
+    "main.js.map": "/merosite/static/js/main.e6d9f705.chunk.js.map",
+    "runtime-main.js": "/merosite/static/js/runtime-main.cf65bfbe.js",
+    "runtime-main.js.map": "/merosite/static/js/runtime-main.cf65bfbe.js.map",
+    "static/js/2.82523963.chunk.js": "/merosite/static/js/2.82523963.chunk.js",
+    "static/js/2.82523963.chunk.js.map": "/merosite/static/js/2.82523963.chunk.js.map",
+    "index.html": "/merosite/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/merosite/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.82523963.chunk.js.LICENSE.txt": "/merosite/static/js/2.82523963.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf65bfbe.js",
+    "static/js/2.82523963.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.e6d9f705.chunk.js"
+  ]
+}
