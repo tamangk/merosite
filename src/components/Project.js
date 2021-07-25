@@ -13,7 +13,7 @@ const Project = () => {
             <div className="projects">
                 <Container>
                     <Row >
-                        <Col className="row">
+                        <Col className="project-col">
                             <h3>FaceTouch Detector</h3>
                             <ul>
                                 <li>
@@ -32,7 +32,7 @@ const Project = () => {
                                 </li>
                             </ul>
                         </Col>
-                        <Col className="col">
+                        <Col className="project-col">
                             <h3>Covid-19 Prediction Application</h3>
                             <ul>
                                 <li>
@@ -50,7 +50,6 @@ const Project = () => {
                                 </li>
                             </ul>
                         </Col>
-
                     </Row>
                 </Container>
             </div>

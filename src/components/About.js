@@ -7,12 +7,12 @@ const About = () => {
         <div className="about-section" id="about">
             <Container>
                 <Row >
-                    <Col className="row">
+                    <Col className="col">
                         <div className="about-intro">
-                            <h4>Hi, I'm a Software Developer</h4><br/>
-                            <p>Passionate Full Stack Software Developer <br/>
-                                having an experience of building Web and <br/>
-                                Mobile aapplications with JavaScript / Reactjs <br/>
+                            <h4>Hi, I'm a Software Developer</h4>
+                            <p>Passionate Full Stack Software Developer
+                                having an experience of building Web and
+                                Mobile aapplications with JavaScript / Reactjs 
                                 and some other cool projects.</p>
                         </div>
                     </Col>

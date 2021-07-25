@@ -3,18 +3,15 @@
 }
 
 .about-section {
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: left;
   padding: 8vh 5vh;
   background-color: rgb(255, 255, 255);
 }
 
-.about-section > p {
-  padding-left: 20px;
-}
-
 .project-section {
   text-align: left;
+  padding: 5vh 5vh;
   background-color: rgb(251, 250, 252);
 }
 
@@ -23,25 +20,52 @@
 }
 
 .contact-section {
-  padding: 5vh 5vh;
+  padding: 1vh 1vh;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .about-section {
+    margin-top: 20px;
+    text-align: left;
+    padding: 8vh 3vh;
+    background-color: rgb(255, 255, 255);
+  }
 
+  .about-background {
+    text-align: center;
+  }
+
+  .project-section {
+    text-align: left;
+    padding: 0px;
+    width: 100%;
+    background-color: rgb(251, 250, 252);
+  }
+
+  .project-col > ul {
+    width: 41vh;
+    padding: 5% 5%;
+  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
 
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 600px) {
+  .about-section {
+    margin-top: 20px;
+    text-align: left;
+    padding: 8vh 1vh;
+    background-color: rgb(255, 255, 255);
+  }
   
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+  .project-section {
+    text-align: left;
+    padding: 0vh 2vh;
+    background-color: rgb(251, 250, 252);
+  }
   
-}
+  .projects {
+  }
+} */
