@@ -1,18 +1,34 @@
 import React from 'react';
-import Profile from '../images/profile.png';
+import { Container, Row, Col } from 'react-bootstrap';
+import Background from '../images/background.png';
 
 const About = () => {
     return (
         <div className="about-section" id="about">
-            <span>
-                <h4>Hi, I'm a Software Developer</h4>
-                <p>Name: Karan Tamang</p>
-                <p>School: Grand Valley State University</p>
-                <p>Email: tamangkw@gmail.com</p>
-                <p>Website: www.tamangk.github.io/merosite</p>
-                <p>GitHub: github.com/tamangk</p>
-            </span>
+            <Container>
+                <Row >
+                    <Col className="row">
+                        <div className="about-intro">
+                            <h4>Hi, I'm a Software Developer</h4><br/>
+                            <p>Passionate Full Stack Software Developer <br/>
+                                having an experience of building Web and <br/>
+                                Mobile aapplications with JavaScript / Reactjs <br/>
+                                and some other cool projects.</p>
+                        </div>
+                    </Col>
+                    <Col className="col">
+                        <div className="about-background">
+                            <img src={Background} alt="developer" />
+                        </div>
+                    </Col>
+
+                </Row>
+            </Container>
         </div>
+
+        
+       
+        
     )
 }
 

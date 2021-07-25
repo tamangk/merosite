@@ -1,4 +1,5 @@
 import React from 'react';
+import CopyrightYear from 'react-copyright-year';
 
 const style = {
     backgroundColor: "#F8F8F8",
@@ -25,7 +26,7 @@ function Footer() {
         <div>
             <div style={phantom} />
             <div style={style}>
-                <p>Footer</p>
+                <CopyrightYear />
             </div>
         </div>
     )

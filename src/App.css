@@ -3,11 +3,9 @@
 }
 
 .about-section {
-  height: 33vh;
   margin-top: 50px;
   text-align: left;
-  margin-left: 5vh;
-  display: flex;
+  padding: 8vh 5vh;
   background-color: rgb(255, 255, 255);
 }
 
@@ -16,11 +14,34 @@
 }
 
 .project-section {
-  height: 45vh;
+  text-align: left;
   background-color: rgb(251, 250, 252);
-  justify-content: center;
+}
+
+.projects {
+  padding: 5vh 5vh;
 }
 
 .contact-section {
-  height: 45vh;
+  padding: 5vh 5vh;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
 }
